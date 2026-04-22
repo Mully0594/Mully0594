@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <title>EMPLOYEE REGISTRATION</title>
+    <style>
+        body {
+            background-color: rgb(214, 208, 208);
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-style: italic;
+        }
+        table {
+            margin: 0 auto;
+            width: 80%;
+        }
+        td {
+            padding: 4px 3px;
+        }
+        input[type="text"], input[type="date"] {
+            width: 100%;
+        }
+        .right-align {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Employee Data</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td class="right-align">Employee ID:</td>
+                <td><input type="text" name="emp_id" value="1102"></td>
+                <td class="right-align">Birth Date:</td>
+                <td><input type="text" name="birth_date" value="06/05/1962"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Manager ID:</td>
+                <td><input type="text" name="mgr_id" value="1501"></td>
+                <td class="right-align">Soc. Sec. No:</td>
+                <td><input type="text" name="ssn" value="017-34-9833"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Emp. First Name:</td>
+                <td><input type="text" name="fname" value="Fran"></td>
+                <td class="right-align">Salary:</td>
+                <td><input type="text" name="salary" value="$45,700.00"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Emp. Last Name:</td>
+                <td><input type="text" name="lname" value="Whitney"></td>
+                <td class="right-align">Start Date:</td>
+                <td><input type="text" name="start_date" value="02/26/1990"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Department ID:</td>
+                <td><input type="text" name="dept_id" value="100"></td>
+                <td class="right-align">Termination Date:</td>
+                <td><input type="text" name="term_date" value="00/00/0000"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Street:</td>
+                <td><input type="text" name="street" value="448 East Washington Street"></td>
+                <td class="right-align">Status:</td>
+                <td>
+                    <input type="radio" name="status" checked> Active<br>
+                    <input type="radio" name="status"> Terminated<br>
+                    <input type="radio" name="status"> On Leave
+                </td>
+            </tr>
+            <tr>
+                <td class="right-align">City:</td>
+                <td><input type="text" name="city" value="Freeport"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td class="right-align">State:</td>
+                <td><input type="text" name="state" value="NY"></td>
+                <td class="right-align">Health Insurance:</td>
+                <td><input type="checkbox" name="health" checked></td>
+            </tr>
+            <tr>
+                <td class="right-align">Zip Code:</td>
+                <td><input type="text" name="zip" value="12132"></td>
+                <td class="right-align">Life Insurance:</td>
+                <td><input type="checkbox" name="life" checked></td>
+            </tr>
+            <tr>
+                <td class="right-align">Phone:</td>
+                <td><input type="text" name="phone" value="(517) 555-3885"></td>
+                <td class="right-align">Day Care:</td>
+                <td><input type="checkbox" name="daycare"></td>
+            </tr>
+            <tr>
+                <td class="right-align">Sex:</td>
+                <td>
+                    <input type="radio" name="sex"> Male<br>
+                    <input type="radio" name="sex" checked> Female
+                </td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
